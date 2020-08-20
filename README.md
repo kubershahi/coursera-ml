@@ -1,2 +1,1 @@
-# coursera-ml
-Machine Learning in Octave/Matlab
+Solutions for Machine Learning by Andrew Ng in Octave/Matlab
