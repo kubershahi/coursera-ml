@@ -24,7 +24,7 @@ cinnerterm = sum((h - y).^2);
 regterm = sum(theta(2:end).^2); 
 J = (1/(2*m))*cinnerterm + (lambda/(2*m))*regterm;
 
-ginnertem = (X')*(h-y);
+ginnerterm = (X')*(h-y);
 temp_theta = theta;
 temp_theta(1) = 0;
 grad = (1/m)*(ginnerterm) + (lambda/m)*(temp_theta);
