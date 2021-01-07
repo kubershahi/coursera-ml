@@ -11,6 +11,7 @@ m = length(y); % number of training examples
 % Instructions: Compute the cost of a particular choice of theta
 %               You should set J to the cost.
 
+
 error=((X*theta)-y).^2;
 J = 1/(2*m) * sum(error);
 
